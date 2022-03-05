@@ -12,6 +12,7 @@ import {
 import { ApiService } from '../../Services/ApiService';
 
 import { Box, Button } from '@mui/material';
+import { Report } from '../Report';
 const api = new ApiService();
 
 export const Main = () => {
@@ -119,6 +120,7 @@ export const Main = () => {
           )}
         </LineChart>
       </ResponsiveContainer>
+      <Report />
     </Box>
   );
 };
