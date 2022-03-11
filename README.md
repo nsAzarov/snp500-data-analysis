@@ -1,6 +1,6 @@
-git clone https://github.com/nsAzarov/InfoPanel.git  
+git clone https://github.com/nsAzarov/snp500-data-analysis.git
 
-cd InfoPanel    
+cd snp500-data-analysis    
 
 npm install && cd client && npm install && cd ..    
 
